@@ -18,6 +18,9 @@
     "url": "https://github.com/kojubivek/e-comm-api/issues"
   },
   "homepage": "https://github.com/kojubivek/e-comm-api#readme",
+  "engines": {
+    "node": ">=14 <15"
+  },
   "dependencies": {
     "bson": "^5.3.0",
     "cors": "^2.8.5",
