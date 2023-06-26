@@ -56,7 +56,7 @@ router.post("/login", async (req, res, next) => {
     if (user?.id) {
       const hasedPassword = CryptoJS.AES.decrypt(
         user.password,
-        process.env.PASS_KEY
+        process.env.Pass_KEY
       ).toString(CryptoJS.enc.Utf8);
 
       if (hasedPassword === req.body.password) {
