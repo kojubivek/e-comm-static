@@ -20,7 +20,7 @@ import categoryRouter from "./src/routers/catRouter.js";
 import path from "path";
 const __dirname = path.resolve();
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 
 app.use("/api/v1/products", productRouter);
 app.use("/api/v1/auth", authRouter);
