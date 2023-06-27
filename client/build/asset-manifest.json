@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.63b5def5.css",
-    "main.js": "/static/js/main.da9dfba8.js",
+    "main.js": "/static/js/main.de481eb7.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/chelseaJackets.jpg": "/static/media/chelseaJackets.b626dd4855e30b34b400.jpg",
     "static/media/arsenal.jpg": "/static/media/arsenal.ed75f2d0fc25c8c147bb.jpg",
@@ -13,11 +13,11 @@
     "static/media/boots.jpg": "/static/media/boots.647653c9bdc823037980.jpg",
     "index.html": "/index.html",
     "main.63b5def5.css.map": "/static/css/main.63b5def5.css.map",
-    "main.da9dfba8.js.map": "/static/js/main.da9dfba8.js.map",
+    "main.de481eb7.js.map": "/static/js/main.de481eb7.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63b5def5.css",
-    "static/js/main.da9dfba8.js"
+    "static/js/main.de481eb7.js"
   ]
 }
