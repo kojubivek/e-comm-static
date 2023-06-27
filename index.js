@@ -20,6 +20,8 @@ import categoryRouter from "./src/routers/catRouter.js";
 import path from "path";
 const __dirname = path.resolve();
 
+const PORT = process.env.PORT || 8080;
+
 app.use("/api/v1/products", productRouter);
 app.use("/api/v1/auth", authRouter);
 
@@ -40,10 +42,10 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send(err.message);
 });
-app.listen(process.env.PORT || 8080, (error) => {
+app.listen(PORT, (error) => {
   if (error) {
     console.log(error);
   } else {
-    console.log("backend server is running");
+    console.log(`backend server is running on ${PORT}`);
   }
 });
