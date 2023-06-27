@@ -40,6 +40,10 @@ app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(500).send(err.message);
 });
-app.listen(process.env.PORT || 8000, () => {
-  console.log("backend server is running");
+app.listen(process.env.PORT || 8080, (error) => {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log("backend server is running");
+  }
 });
